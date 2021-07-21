@@ -11,7 +11,7 @@ export default function Portfolio({shots}) {
         <Title >Design Portfolio</Title>
         <div className="w-full grid grid-cols-2 gap-7 mt-4">
           {shots.map((shot, i)=>(
-            <Card title={shot.title} url={shot.html_url} image_url={shot.images.hidpi}/>
+            <Card key title={shot.title} url={shot.html_url} image_url={shot.images.hidpi}/>
           ))}
         </div>
         <div className="flex flex-col items-center mt-4">

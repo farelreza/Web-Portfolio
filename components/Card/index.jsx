@@ -6,7 +6,7 @@ export default function Card({title, url, image_url}) {
     <Link href= {url}>
       <a>
         <div className="h-80 w-full relative rounded-lg overflow-hidden">
-          <Image src={image_url} layout="fill"/>
+          <Image alt="card" src={image_url} layout="fill"/>
         </div>
         <p>{title}</p>
       </a>

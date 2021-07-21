@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Image src="/images/farel.png" width={500} height={500}/>
+          <Image alt="foto" src="/images/farel.png" width={500} height={500}/>
         </div>    
       </div>
       
