@@ -15,7 +15,7 @@ export default function Portfolio({shots}) {
           ))}
         </div>
         <div className="flex flex-col items-center mt-4">
-        <Link key={i} href="https://dribbble.com/FarelReza">
+        <Link href="https://dribbble.com/FarelReza">
           <a className="py-2 px-4 bg-blue-800 text-white rounded-lg">See more in Dribbble</a>
         </Link>
         </div>
